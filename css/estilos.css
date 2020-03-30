@@ -1,4 +1,19 @@
-header{
-    background: rgb(85, 124, 122);
-    color: red;
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
 }
