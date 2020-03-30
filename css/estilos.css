@@ -24,7 +24,7 @@ h1 strong{
     color: rgb(66, 134, 211);
 }
 .header{
-    background-color: rgb(10, 38, 61);
+    background-color: rgb(23, 59, 88);
     color: white;
 }
 .header a{
@@ -34,7 +34,7 @@ h1 strong{
 .hero{
     height: 300px;
     background-image: url('../assets/img/juntos.jpg');
-    background-color: rgb(20, 34, 51);
+    background-color: rgb(42, 79, 109);
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
