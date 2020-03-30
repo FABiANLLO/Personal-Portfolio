@@ -5,19 +5,14 @@
         <title>Fabian Llanos</title>
         <link rel="icon" type="Imagen/png" href="assets/img/juntos.jpg">
         <link rel="stylesheet" href="css/estilos.css">
-        <style>
-            header {
-                background: rgb(93, 171, 207);
-            }
-        </style>
     </head>
     <body>
-       <header >
+       <header class="header" >
            <div>
-               <figure>
+               <figure class="logo">
                    <img src="assets/img/juntos.jpg" width="100" alt="Logo de Fabian">
                </figure>
-        <nav>
+        <nav class="menu">
             <ol>
                 <li>
                     <a href="#portafolio">Portafolio</a>
@@ -32,44 +27,46 @@
         </nav>
             </div>
        </header>
-       <section>
+       <section class="hero">
            <h1>
                Hola soy <strong>Fabian Llanos</strong>  <br> Ingeniero de <strong>sistemas</strong> <br> con ganas de <strong>aprender</strong>
            </h1>
-           <img src="assets/img/juntos.jpg" width="500" height="300" alt=""> Imagen de Portada
+           <img src="assets/img/juntos.jpg" width="500" height="300" alt="">
        </section> 
-       <section id="portafolio">
+       <section id="portafolio" class="portfolio">
            <h2>Proyectos Destacados</h2>
-           <article>
-               <h3>Primera App</h3>
-               <h6>Flutter</h6>
-               <p><small><strong>Fecha:</strong>28/03/2020</small></p>
-               <p><small><strong>Puedes verlo en:</strong>fabianllo.gio</small></p>
-               <p>Primera aplicacion movil desarrollada en el framework de darta llamado Flutter</p>
-            <img src="assets/img/juntos.jpg" width="500" alt="">
+           <article class="project">
+               <h3 class="project=title">Primera App</h3>
+               <h6 class="project-course">Flutter</h6>
+               <p class="project-date"><small><strong>Fecha:</strong>28/03/2020</small></p>
+               <p class="project-url"><small><strong>Puedes verlo en:</strong>fabianllo.gio</small></p>
+               <p class="project-descripticon">Primera aplicacion movil desarrollada en el framework de darta llamado Flutter</p>
+             <figure class="project-imageContainer">
+              <img class="project-image" src="assets/img/juntos.jpg" width="500" alt="">
+             </figure>
             </article>
             <article></article>
             <article></article>
         </section> 
-        <section id="Experiencia">
+        <section id="Experiencia" class="experiencie">
             <h2>Mi Experiencia</h2>
-            <article>
-                <figure>
-                    <img src="assets/img/juntos.jpg" width="500" alt="">
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="assets/img/juntos.jpg" width="500" alt="">
                 </figure>
-                <h3>Conferencia UDLA</h3>
-                <p>Gran conferencia muy importante en la UDLA</p>
-                <a href="https://www.youtube.com/watch?v=UBagcqFsKls" target="_blank">Ver Evento</a>
+                <h3 class="event-title">Conferencia UDLA</h3>
+                <p class="event-description">Gran conferencia muy importante en la UDLA</p>
+                <a class="event-url" href="https://www.youtube.com/watch?v=UBagcqFsKls" target="_blank">Ver Evento</a>
             </article>
        </section> 
-       <section id="Contacto">
-           <form action="">
+       <section id="Contacto" class="contact">
+           <form action="" class="form-email">
                <h3>Creamos algo juntos</h3>
                <input type="text" placeholder="Dejame tu email">
                <input type="submit" value="Enviar">
                <button>Enviar</button>
            </form>
        </section>
-       <footer>Footer</footer> 
+       <footer class="footer">Footer</footer> 
     </body>
 </html>
