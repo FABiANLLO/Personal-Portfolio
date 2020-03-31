@@ -33,11 +33,41 @@ h1 strong{
 .header{
     background-color: rgb(23, 59, 88);
     color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+.menu{
+    height: inherit;
+}
+.header ol{
+    display: flex;
+    height: inherit;
+}
+.header ol li{
+    height: inherit;
 }
 .header a{
+    display: flex;
+    align-items: center;
     color: white;
     text-decoration: none;
+    height: inherit;
+    padding: 0 10px;
+    margin: 0 5px;
 }
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .hero{
     height: 300px;
     background-image: url('../assets/img/juntos.jpg');
@@ -71,7 +101,6 @@ h1 strong{
     margin-bottom: 15px; 
     padding: 20px;
     display: flex;
-
     /* border-top-left-radius: 50px; */
 }
 .project-details{
