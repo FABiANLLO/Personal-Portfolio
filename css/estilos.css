@@ -4,6 +4,7 @@
     box-sizing: border-box;
 } */
 body{
+    margin: 0px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -22,12 +23,12 @@ h1{
     line-height: 1.5;
     letter-spacing: -.2px;
     color: white;
-    margin: 100px 520px 70px 30px;
+    /* margin: 100px 520px 70px 30px; */
     /* text-transform: uppercase;
     text-decoration: dashed; */
 }
 h1 strong{
-    color: rgb(66, 134, 211);
+    color: rgb(48, 130, 195);
 }
 .header{
     background-color: rgb(23, 59, 88);
@@ -44,6 +45,14 @@ h1 strong{
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+   
+}
+.hero h1{
+    padding: 50px;
+}
+.portfolio{
+    color: rgb(48, 130, 195);
+    background-color: rgb(240, 240, 240);
 }
 .project{
     /* color: skyblue; */
@@ -54,9 +63,14 @@ h1 strong{
     /* border-top-color: red;
     border-width: 10px;
     border-style: solid; */
+    color: black;
+    background-color: white;
+    margin: 10px;
     border: 1px solid goldenrod;
     border-radius: 10px;   
     margin-bottom: 15px; 
+    padding: 20px;
+
     /* border-top-left-radius: 50px; */
 }
 .project-details{
