@@ -23,6 +23,7 @@ h1{
     line-height: 1.5;
     letter-spacing: -.2px;
     color: white;
+    margin: 0;
     /* margin: 100px 520px 70px 30px; */
     /* text-transform: uppercase;
     text-decoration: dashed; */
@@ -35,7 +36,8 @@ h1 strong{
     color: white;
     display: flex;
     justify-content: space-between;
-    height: 90px;
+    height: 70px;
+    align-items: center;
 }
 .menu{
     height: inherit;
@@ -75,6 +77,8 @@ ul{
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
    
 }
 .hero h1{
@@ -108,4 +112,14 @@ ul{
 }
 .project-imageContainer{
     width: 500px;
+}
+.footer{
+    background-color:  rgb(23, 59, 88);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer img{
+    vertical-align: middle;
 }
