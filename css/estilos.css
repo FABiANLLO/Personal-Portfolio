@@ -1,3 +1,8 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 body{
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -17,6 +22,7 @@ h1{
     line-height: 1.5;
     letter-spacing: -.2px;
     color: white;
+    margin: 100px 520px 70px 30px;
     /* text-transform: uppercase;
     text-decoration: dashed; */
 }
@@ -38,6 +44,20 @@ h1 strong{
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+}
+.project{
+    /* color: skyblue; */
+    /* border-top: 10px solid red;
+    border-right: 10px solid violet;
+    border-left: 10px solid indigo;
+    border-bottom: 10px solid seagreen; */
+    /* border-top-color: red;
+    border-width: 10px;
+    border-style: solid; */
+    border: 1px solid goldenrod;
+    border-radius: 10px;   
+    margin-bottom: 15px; 
+    /* border-top-left-radius: 50px; */
 }
 .project-details{
     width: 500px;
