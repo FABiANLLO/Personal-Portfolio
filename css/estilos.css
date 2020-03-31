@@ -70,6 +70,7 @@ h1 strong{
     border-radius: 10px;   
     margin-bottom: 15px; 
     padding: 20px;
+    display: flex;
 
     /* border-top-left-radius: 50px; */
 }
