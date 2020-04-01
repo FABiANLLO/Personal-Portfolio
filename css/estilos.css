@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 } */
-body{
+
+body {
     margin: 0px;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -13,12 +14,12 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
     font-family: 'Fjalla One', sans-serif;
     font-weight: normal;
 }
 
-h1{
+h1 {
     font-size: 40px;
     line-height: 1.5;
     letter-spacing: -.2px;
@@ -28,10 +29,12 @@ h1{
     /* text-transform: uppercase;
     text-decoration: dashed; */
 }
-h1 strong{
+
+h1 strong {
     color: rgb(48, 130, 195);
 }
-.header{
+
+.header {
     background-color: rgb(23, 59, 88);
     color: white;
     display: flex;
@@ -39,17 +42,21 @@ h1 strong{
     height: 70px;
     align-items: center;
 }
-.menu{
+
+.menu {
     height: inherit;
 }
-.header ol{
+
+.header ol {
     display: flex;
     height: inherit;
 }
-.header ol li{
+
+.header ol li {
     height: inherit;
 }
-.header a{
+
+.header a {
     display: flex;
     align-items: center;
     color: white;
@@ -58,19 +65,21 @@ h1 strong{
     padding: 0 10px;
     margin: 0 5px;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
     margin: 10px;
 }
+
 ol,
-ul{
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.hero{
+.hero {
     height: 300px;
     background-image: url('../assets/img/juntos.jpg');
     background-color: rgb(42, 79, 109);
@@ -79,16 +88,18 @@ ul{
     background-position-x: right;
     display: flex;
     align-items: center;
-   
 }
-.hero h1{
+
+.hero h1 {
     padding: 50px;
 }
-.portfolio{
+
+.portfolio {
     color: rgb(48, 130, 195);
     background-color: rgb(240, 240, 240);
 }
-.project{
+
+.project {
     /* color: skyblue; */
     /* border-top: 10px solid red;
     border-right: 10px solid violet;
@@ -101,25 +112,29 @@ ul{
     background-color: white;
     margin: 10px;
     border: 1px solid goldenrod;
-    border-radius: 10px;   
-    margin-bottom: 15px; 
+    border-radius: 10px;
+    margin-bottom: 15px;
     padding: 20px;
     display: flex;
     /* border-top-left-radius: 50px; */
 }
-.project-details{
+
+.project-details {
     width: 500px;
 }
-.project-imageContainer{
+
+.project-imageContainer {
     width: 500px;
 }
-.footer{
-    background-color:  rgb(23, 59, 88);
+
+.footer {
+    background-color: rgb(23, 59, 88);
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.footer img{
+
+.footer img {
     vertical-align: middle;
 }
