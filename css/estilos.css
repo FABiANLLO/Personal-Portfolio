@@ -1,8 +1,8 @@
-/* *{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 body {
     margin: 0px;
@@ -20,7 +20,7 @@ h6 {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 45px;
     line-height: 1.5;
     letter-spacing: -.2px;
     color: white;
@@ -31,7 +31,7 @@ h1 {
 }
 
 h1 strong {
-    color: rgb(48, 130, 195);
+    color: rgb(96, 173, 218);
 }
 
 .header {
@@ -82,7 +82,7 @@ ul {
 .hero {
     height: 300px;
     background-image: url('../assets/img/juntos.jpg');
-    background-color: rgb(42, 79, 109);
+    background-color: rgb(32, 72, 105);
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
@@ -95,8 +95,17 @@ ul {
 }
 
 .portfolio {
-    color: rgb(48, 130, 195);
+    padding: 30px;
     background-color: rgb(240, 240, 240);
+}
+
+.portfolio h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(48, 130, 195);
+    margin-bottom: 20px;
 }
 
 .project {
@@ -110,17 +119,44 @@ ul {
     border-style: solid; */
     color: black;
     background-color: white;
-    margin: 10px;
-    border: 1px solid goldenrod;
+    border: 3px solid rgb(96, 173, 218);
     border-radius: 10px;
     margin-bottom: 15px;
     padding: 20px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     /* border-top-left-radius: 50px; */
 }
 
+.project-title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project-course {
+    margin: 10px 0;
+}
+
+.project-date {
+    margin: 10px 0;
+}
+
+.project-url {
+    margin: 10px 0;
+}
+
+.project-description {
+    font-size: 20px;
+}
+
 .project-details {
-    width: 500px;
+    width: 700px;
+}
+
+.project-details strong {
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .project-imageContainer {
@@ -128,8 +164,12 @@ ul {
 }
 
 .footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    padding: 30px;
     background-color: rgb(23, 59, 88);
     color: white;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
