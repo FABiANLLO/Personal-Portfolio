@@ -178,3 +178,132 @@ ul {
 .footer img {
     vertical-align: middle;
 }
+
+.title-section-event {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(48, 130, 195);
+    margin: 20px 0;
+    margin-left: 30px;
+}
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event {
+    border-radius: 20px;
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    overflow: hidden;
+    background-color: rgb(235, 248, 255);
+}
+
+.event img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-detail {
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px 40px;
+    margin-top: -40px;
+    width: 400px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.event-title {
+    margin: 20px;
+}
+
+.event-description {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.event-url {
+    font-weight: bold;
+    border: 2px solid rgb(46, 146, 204);
+    text-decoration: none;
+    color: rgb(46, 146, 204);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.contact {
+    background-color: rgb(32, 72, 105);
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+    margin: 0 20px;
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0 10px;
+}
+
+.social-link.twitter {
+    background-image: url('../assets/img/twitter.svg');
+}
+
+.social-link.facebook {
+    background-image: url('../assets/img/facebook.svg');
+}
+
+.social-link.github {
+    background-image: url('../assets/img/github.svg');
+}
+
+.social-link.instagram {
+    background-image: url('../assets/img/instagram.svg');
+}
+
+.form-email {
+    padding: 20px;
+}
+
+.form-email input {
+    border-color: gray;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 5px 20px 5px 25px;
+    background-image: url('../assets/img/envelop.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email button {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 0px;
+    width: 100px;
+    margin-top: 10px;
+    border-style: solid;
+}
+
+.form-email h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 15px;
+}
