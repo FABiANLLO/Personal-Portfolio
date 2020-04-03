@@ -68,9 +68,10 @@ h1 strong {
 }
 
 .logo {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     margin: 10px;
+    flex-wrap: wrap;
 }
 
 ol,
@@ -331,6 +332,8 @@ ul {
 
 .container {
     max-width: 1100px;
+    /* width: 100%; */
+    flex: 1;
     margin: 0 auto;
     height: inherit;
     display: inherit;
@@ -348,9 +351,24 @@ ul {
     }
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        /* border: 10px solid red; */
+@media screen and (max-width: 767px) {
+    .header {
+        display: block;
+        height: auto;
+    }
+    .header ol {
+        display: block;
+    }
+    .header ol li {
+        height: 50px;
+        text-align: center;
+    }
+    .header a {
+        justify-content: center;
+    }
+    .header .logo {
+        text-align: center;
+        padding: 10px 0;
     }
 }
 
