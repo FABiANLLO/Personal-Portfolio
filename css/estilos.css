@@ -41,6 +41,7 @@ h1 strong {
     justify-content: space-between;
     height: 70px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .menu {
@@ -89,6 +90,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hero-image {
@@ -132,6 +134,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     /* border-top-left-radius: 50px; */
 }
 
@@ -179,6 +182,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer img {
@@ -260,6 +264,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .social {
@@ -325,7 +330,7 @@ ul {
 }
 
 .container {
-    width: 1100px;
+    max-width: 1100px;
     margin: 0 auto;
     height: inherit;
     display: inherit;
