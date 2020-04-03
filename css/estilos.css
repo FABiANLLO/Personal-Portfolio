@@ -131,7 +131,7 @@ ul {
     border-radius: 10px;
     margin-bottom: 15px;
     padding: 20px;
-    padding-top: 0px;
+    /* padding-top: 0px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -162,7 +162,7 @@ ul {
 }
 
 .project-details {
-    width: 700px;
+    width: 50%;
 }
 
 .project-details strong {
@@ -170,7 +170,11 @@ ul {
 }
 
 .project-imageContainer {
-    width: 500px;
+    width: 50%;
+}
+
+.project-imageContainer img {
+    max-width: 100%;
 }
 
 .footer {
@@ -370,11 +374,43 @@ ul {
         text-align: center;
         padding: 10px 0;
     }
+    .project {
+        display: block;
+    }
+    .project-course,
+    .project-date,
+    .project-url {
+        margin: .3em 0;
+    }
+    .project-imageContainer {
+        width: auto;
+        text-align: center;
+    }
+    .project-details {
+        width: auto;
+        /* font-size: 16px; */
+    }
+    .project-title {
+        font-size: 1.5em;
+        margin-bottom: .3em;
+    }
+    .project-url {
+        font-size: 1em;
+    }
+    .project-course {
+        font-size: .7em;
+    }
+    .project-date {
+        font-size: 1em;
+    }
+    .project-description {
+        font-size: .8em;
+    }
 }
 
 @media screen and (max-width: 480px) {
-    body {
-        /* border: 10px solid blue; */
+    .project-details {
+        font-size: 12px;
     }
 }
 
