@@ -195,10 +195,12 @@
         burgerButtom.addEventListener('click', hideShow)
 
         function hideShow() {
-            if (menu.classList.contains('is-active')) {
+            if (menu.classList.contains('is-active') && burgerButtom.classList.contains('is-active')) {
                 menu.classList.remove('is-active')
+                burgerButtom.classList.remove('is-active')
             } else {
                 menu.classList.add('is-active');
+                burgerButtom.classList.add('is-active');
             }
         }
     </script>

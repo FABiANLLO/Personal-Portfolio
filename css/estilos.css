@@ -482,7 +482,7 @@ ul {
     .header a {
         justify-content: center;
         height: 40px;
-        font-size: 1.5em;
+        font-size: 1.2em;
         text-decoration: underline;
     }
     .header .logo {
@@ -496,7 +496,7 @@ ul {
         left: -100vw;
         top: 0;
         bottom: 0;
-        width: 100vw;
+        width: 40vw;
         /* height: 100vw; */
         padding: 0 10px;
         display: flex;
@@ -506,6 +506,11 @@ ul {
     }
     .menu.is-active {
         left: 0;
+        background-color: rgba(16, 41, 61, 0.603);
+        ;
+    }
+    .burger-buttom.is-active {
+        background-color: rgb(23, 59, 88);
     }
     .project {
         display: block;
