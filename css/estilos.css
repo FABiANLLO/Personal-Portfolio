@@ -162,6 +162,7 @@ ul {
     color: black;
     background-color: white;
     border: 3px solid rgb(96, 173, 218);
+    box-shadow: 0px 1px 14px 1px rgba(0, 0, 0, 0.36);
     border-radius: 10px;
     margin-bottom: 15px;
     padding: 20px;
@@ -259,6 +260,7 @@ ul {
     flex-shrink: 0;
     overflow: hidden;
     background-color: rgb(99, 131, 153);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.42);
 }
 
 .event img {
