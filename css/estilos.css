@@ -180,10 +180,10 @@ ul {
 .footer {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
-    padding: 30px;
+    /* padding: 30px; */
     background-color: rgb(23, 59, 88);
     color: white;
-    height: 70px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -350,8 +350,8 @@ ul {
 /* desktop first */
 
 @media screen and (max-width: 1024px) {
-    body {
-        /* border: 10px solid green; */
+    .container {
+        padding: 0 1em;
     }
 }
 
@@ -414,7 +414,7 @@ ul {
         width: 100%;
     }
     .event-detail {
-        margin: -2em .5em .5em;
+        margin: -40px 20px 20px 20px;
         padding: 1em;
         /* width: 100%s; */
     }
@@ -423,6 +423,21 @@ ul {
 @media screen and (max-width: 480px) {
     .project-details {
         font-size: 12px;
+    }
+    .contact {
+        display: block;
+        height: auto;
+        padding: 1.5em 0;
+        text-align: center;
+    }
+    .form-email button {
+        margin: 1em auto;
+    }
+    .footer {
+        display: block;
+        text-align: center;
+        height: auto;
+        padding: 1em 1em;
     }
 }
 
