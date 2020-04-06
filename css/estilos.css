@@ -216,6 +216,7 @@ ul {
     font-size: 15px;
     /* padding: 30px; */
     background-color: rgb(23, 59, 88);
+    box-shadow: 0px -5px 5px -1px rgba(0, 0, 0, 0.27);
     color: white;
     height: 80px;
     display: flex;
@@ -488,7 +489,7 @@ ul {
     }
     .menu {
         position: fixed;
-        background: rgba(23, 59, 88, 0.603);
+        background: rgba(16, 41, 61, 0.603);
         z-index: 1;
         left: -100vw;
         top: 0;
