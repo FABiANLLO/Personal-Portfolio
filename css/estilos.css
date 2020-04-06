@@ -219,15 +219,15 @@ ul {
 
 .event {
     border-radius: 20px;
-    margin: 10px;
-    width: 480px;
+    margin: 1%;
+    width: 48%;
     flex-shrink: 0;
     overflow: hidden;
     background-color: rgb(99, 131, 153);
 }
 
 .event img {
-    width: 480px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
 }
@@ -237,7 +237,7 @@ ul {
     background-color: white;
     margin: 20px 40px;
     margin-top: -40px;
-    width: 400px;
+    /* width: 400px; */
     padding: 20px;
     position: relative;
     text-align: center;
@@ -405,6 +405,18 @@ ul {
     }
     .project-description {
         font-size: .8em;
+    }
+    .event {
+        width: auto;
+        flex-shrink: initial;
+    }
+    .event img {
+        width: 100%;
+    }
+    .event-detail {
+        margin: -2em .5em .5em;
+        padding: 1em;
+        /* width: 100%s; */
     }
 }
 
