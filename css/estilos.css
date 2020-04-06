@@ -64,15 +64,16 @@ h1 strong {
 
 .header {
     background-color: rgb(23, 59, 88);
+    box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.3);
     color: white;
     display: flex;
     justify-content: space-between;
     height: 70px;
     align-items: center;
     flex-wrap: wrap;
-    /* position: sticky;
+    position: sticky;
     top: 0;
-    z-index: 1; */
+    z-index: 4;
 }
 
 .menu {
@@ -403,15 +404,15 @@ ul {
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    background-color: rgba(20, 51, 75, 0.726);
+    background-color: rgb(23, 59, 88);
     display: none;
     line-height: 40px;
     text-align: center;
     color: white;
     position: fixed;
-    z-index: 4;
+    z-index: 5;
     left: 5px;
-    top: 5px;
+    top: 10px;
     cursor: pointer;
 }
 
@@ -483,7 +484,7 @@ ul {
     .menu {
         position: fixed;
         background: rgba(23, 59, 88, 0.603);
-        z-index: 3;
+        z-index: 1;
         left: -100vw;
         top: 0;
         bottom: 0;
