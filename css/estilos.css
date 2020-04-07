@@ -445,6 +445,9 @@ ul {
         bottom: 0;
         width: 100%;
     }
+    .title-section-event {
+        padding-left: 1em;
+    }
     .event-list {
         padding: 0 1.2em;
         margin-bottom: 1em;
@@ -565,8 +568,15 @@ ul {
     .hero h1 {
         font-size: 1.5em;
     }
+    .portfolio h2 {
+        text-align: center;
+    }
     .project-details {
         font-size: 12px;
+    }
+    .title-section-event {
+        text-align: center;
+        padding-left: 0px;
     }
     .contact {
         display: block;
