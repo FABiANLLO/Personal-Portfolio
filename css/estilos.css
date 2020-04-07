@@ -423,7 +423,7 @@ ul {
 
 /* desktop first */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .container {
         padding: 0 1em;
     }
@@ -545,7 +545,7 @@ ul {
         font-size: 1em;
     }
     .project-description {
-        font-size: .8em;
+        font-size: 1em;
     }
     .event {
         width: auto;
@@ -568,11 +568,18 @@ ul {
     .hero h1 {
         font-size: 1.5em;
     }
+    .portfolio {
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
     .portfolio h2 {
         text-align: center;
     }
     .project-details {
-        font-size: 12px;
+        font-size: 14px;
+    }
+    .experiencie-section h2 {
+        padding-bottom: .5em;
     }
     .title-section-event {
         text-align: center;
@@ -598,6 +605,11 @@ ul {
     }
     .event {
         margin: 3%;
+    }
+    .social-link {
+        width: 39px;
+        height: 39px;
+        background-size: 100%;
     }
 }
 
